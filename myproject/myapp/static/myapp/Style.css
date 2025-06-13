@@ -1,0 +1,85 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  color: #2c3e50;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  color: #0b136d;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #7986cb;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  color: #15217a;
+  margin-top: 40px;
+  border-bottom: 1px solid #c5cae9;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #505ca0;
+  margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+  margin: 5px 0 10px 0;
+  text-align: justify;
+}
+
+/* Lists */
+ul {
+  margin: 10px 0 20px 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  list-style-type: square;
+}
+
+/* Links (if any) */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+
+}
